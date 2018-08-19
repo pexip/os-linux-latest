@@ -1,3 +1,9 @@
+linux-latest (80+deb9u6) stretch-security; urgency=high
+
+  * Update to 4.9.0-8
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 19 Aug 2018 20:28:09 +0200
+
 linux-latest (80+deb9u5) stretch; urgency=medium
 
   * Update to 4.9.0-7
