@@ -61,3 +61,9 @@ Architecture: amd64
 Depends: xen-system-amd64, linux-image-amd64, ${misc:Depends}
 Description: Xen system with Linux for 64-bit PCs (dummy package)
  This is a dummy transitional package.  It can be safely removed.
+
+Package: linux-image-virtual
+Architecture: amd64
+Depends: linux-image-amd64, ${misc:Depends}
+Description: Linux kernel suitable for virtual machines (meta-package)
+ This package depends on the binary Linux image.
