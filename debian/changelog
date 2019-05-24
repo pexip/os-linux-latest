@@ -1,3 +1,15 @@
+linux-latest (80+deb9u7pexip1) pexip; urgency=medium
+
+  * Resync with upstream
+
+ -- John-Mark Bell <jmb@pexip.com>  Fri, 24 May 2019 14:12:18 +0100
+
+linux-latest (80+deb9u7) stretch; urgency=medium
+
+  * Update to 4.9.0-9
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 29 Mar 2019 14:41:18 +0100
+
 linux-latest (80+deb9u6pexip2) pexip; urgency=medium
 
   * Update to 4.19.0-1pexip1
