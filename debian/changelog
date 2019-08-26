@@ -1,3 +1,15 @@
+linux-latest (80+deb9u9) stretch; urgency=medium
+
+  * Update to 4.9.0-11
+
+ -- Ben Hutchings <ben@decadent.org.uk>  Mon, 26 Aug 2019 02:22:14 +0100
+
+linux-latest (80+deb9u8) stretch; urgency=medium
+
+  * Update to 4.9.0-10
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 19 Jul 2019 21:23:23 +0200
+
 linux-latest (80+deb9u7) stretch; urgency=medium
 
   * Update to 4.9.0-9
