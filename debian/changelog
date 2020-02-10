@@ -1,3 +1,15 @@
+linux-latest (80+deb9u10pexip1) pexip; urgency=medium
+
+  * Resync with upstream
+
+ -- John-Mark Bell <jmb@pexip.com>  Mon, 10 Feb 2020 10:31:43 +0000
+
+linux-latest (80+deb9u10) stretch; urgency=medium
+
+  * Update to 4.9.0-12
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Tue, 28 Jan 2020 06:45:30 +0100
+
 linux-latest (80+deb9u9pexip1) pexip; urgency=medium
 
   * Resync with upstream
