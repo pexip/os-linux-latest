@@ -8,7 +8,7 @@ Standards-Version: 3.9.8
 Build-Depends: debhelper (>= 9), python-all (>= 2.7), linux-support-4.19.0-1pexip1, linux-headers-4.19.0-1pexip1-all
 Vcs-Browser: https://anonscm.debian.org/cgit/kernel/linux-latest.git
 Vcs-Git: https://anonscm.debian.org/git/kernel/linux-latest.git
-XS-Pexip-Upstream: http://ftp.debian.org/debian/ stretch
+XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 
 Package: linux-source
 Architecture: all
