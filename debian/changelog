@@ -1,3 +1,9 @@
+linux-latest (105+deb10u7) buster-security; urgency=high
+
+  * Update to 4.19.0-12
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 18 Oct 2020 14:43:57 +0200
+
 linux-latest (105+deb10u6) buster; urgency=medium
 
   * Update to 4.19.0-11
