@@ -1,3 +1,15 @@
+linux-latest (105+deb10u8pexip1) pexip; urgency=medium
+
+  * Resync with upstream
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 07 Dec 2020 15:36:17 +0000
+
+linux-latest (105+deb10u8) buster; urgency=medium
+
+  * Update to 4.19.0-13
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 27 Nov 2020 19:01:04 +0100
+
 linux-latest (105+deb10u7pexip1) pexip; urgency=medium
 
   * Resync with upstream
