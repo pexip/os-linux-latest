@@ -40,11 +40,11 @@ class Gencontrol(Base):
 
     def do_main_packages(self, packages, vars, makeflags, extra):
         packages['source']['Build-Depends'].extend(
-            ['linux-support-%s' % self.abiname,
+            ['linux-support-%s' % self.abiname]
              # We don't need this installed, but it ensures that after an
              # ABI bump linux is auto-built before linux-latest on each
              # architecture.
-             'linux-headers-%s-all' % self.abiname]
+             #'linux-headers-%s-all' % self.abiname]
         )
 
         # Only build these metapackages if their names won't exactly match

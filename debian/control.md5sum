@@ -1,10 +1,10 @@
-b8982cee030a385016e063bcbfe5a2c1  debian/bin/gencontrol.py
-d70c5a8076c1d64d782282adb1e2ca79  debian/changelog
-04eae4f5925cb6e60c22a778f16a4c4e  debian/templates/control.doc.latest.in
-d41d8cd98f00b204e9800998ecf8427e  debian/templates/control.extra.in
-058dc9d50781bda620714e40e520307e  debian/templates/control.headers.latest.in
+dde7f8159363bb63b26961287e26b481  debian/bin/gencontrol.py
+97fc39151001a115c0c96185142a5e7c  debian/changelog
 0fc2d9da78e51f88a171500caebe2483  debian/templates/control.image-dbg.latest.in
-4e5a2d738a699e6def9803bbb48d4f88  debian/templates/control.image.latest.type-standalone.in
-b9004d5740378499d488dd91112ebb1f  debian/templates/control.source.in
 fd4231e3b8f8ee7ac4b2b8ba475cf70e  debian/templates/control.source.latest.in
+058dc9d50781bda620714e40e520307e  debian/templates/control.headers.latest.in
+4e5a2d738a699e6def9803bbb48d4f88  debian/templates/control.image.latest.type-standalone.in
+04eae4f5925cb6e60c22a778f16a4c4e  debian/templates/control.doc.latest.in
+a03f00ab70e9caac86d5678eac18d086  debian/templates/control.source.in
 983f55c96e2f908290750536b22f10d9  debian/templates/control.tools.latest.in
+61d54aa1a0b3f8e697fbfd9e77e3b8b8  debian/templates/control.extra.in
