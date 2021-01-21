@@ -11,8 +11,8 @@ export DEB_HOST_ARCH
 include debian/rules.defs
 
 binary-indep: install-doc
-binary-indep: install-source
-binary-indep: install-perf
+#binary-indep: install-source
+#binary-indep: install-perf
 
 install-base:
 	dh_bugfiles

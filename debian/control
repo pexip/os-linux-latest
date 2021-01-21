@@ -10,13 +10,6 @@ XS-Pexip-Upstream: http://ftp.debian.org/debian/ buster
 XSBC-Pexip-Original-Maintainer: Debian Kernel Team <debian-kernel@lists.debian.org>
 XSBC-Pexip-Original-Uploaders: Bastian Blank <waldi@debian.org>, Ben Hutchings <ben@decadent.org.uk>, Salvatore Bonaccorso <carnil@debian.org>
 
-Package: linux-source
-Architecture: all
-Depends: linux-source-5.10, ${misc:Depends}
-Description: Linux kernel source (meta-package)
- This package depends on packages containing the sources of the latest
- Linux kernel.
-
 Package: linux-doc
 Architecture: all
 Section: doc
@@ -24,13 +17,6 @@ Depends: linux-doc-5.10, ${misc:Depends}
 Description: Linux kernel specific documentation (meta-package)
  This package depends on the package containing the documentation for the
  latest Linux kernel.
-
-Package: linux-perf
-Architecture: all
-Depends: linux-perf-5.10, ${misc:Depends}
-Description: Performance analysis tools for Linux (meta-package)
- This package depends on the package containing the 'perf' performance
- analysis tools for the latest Linux kernel.
 
 Package: linux-image-virtual
 Architecture: amd64
