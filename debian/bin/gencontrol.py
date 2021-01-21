@@ -108,8 +108,9 @@ class Gencontrol(Base):
 
         packages_flavour = []
 
-        packages_flavour.append(self.process_real_image(templates[0], image_fields, vars))
-        packages_flavour.extend(self.process_packages(templates[1:], vars))
+        if templates:
+            packages_flavour.append(self.process_real_image(templates[0], image_fields, vars))
+            packages_flavour.extend(self.process_packages(templates[1:], vars))
 
         for package in packages_flavour:
             name = package['Package']
@@ -133,7 +134,9 @@ class Gencontrol(Base):
         # directing reporters to the real image package.
         bug_presubj = self.substitute(
             self.templates["bug-presubj.image.latest"], vars)
-        codecs.open("debian/%s.bug-presubj" % packages_flavour[0]['Package'], 'w', 'utf-8').write(bug_presubj)
+
+        if packages_flavour:
+            codecs.open("debian/%s.bug-presubj" % packages_flavour[0]['Package'], 'w', 'utf-8').write(bug_presubj)
 
     def do_extra(self, packages, makefile):
         templates_extra = self.templates["control.extra"]
