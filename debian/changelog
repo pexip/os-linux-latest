@@ -1,8 +1,14 @@
+linux-latest (105+deb10u9pexip2) pexip; urgency=high
+
+  * Fix the 105+deb10u9pexip1 changelog to use the right day. Sigh.
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 08 Feb 2021 17:20:32 +0000
+
 linux-latest (105+deb10u9pexip1) pexip; urgency=high
 
   * New upstream version
 
- -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 07 Feb 2021 16:50:32 +0000
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 08 Feb 2021 16:50:32 +0000
 
 linux-latest (105+deb10u9) buster-security; urgency=high
 
