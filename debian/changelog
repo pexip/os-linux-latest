@@ -1,3 +1,15 @@
+linux-latest (105+deb10u9pexip1) pexip; urgency=high
+
+  * New upstream version
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Mon, 07 Feb 2021 16:50:32 +0000
+
+linux-latest (105+deb10u9) buster-security; urgency=high
+
+  * Update to 4.19.0-14
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 30 Jan 2021 08:43:43 +0100
+
 linux-latest (105+deb10u8pexip4) pexip; urgency=medium
 
   * Remove perf and source package generation
