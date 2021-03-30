@@ -1,3 +1,21 @@
+linux-latest (105+deb10u11pexip1) pexip; urgency=high
+
+  * New upstream version
+
+ -- Steve McIntyre <steve.mcintyre@pexip.com>  Tue, 30 Mar 2021 16:00:00 +0100
+
+linux-latest (105+deb10u11) buster; urgency=medium
+
+  * Update to 4.19.0-16
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Fri, 19 Mar 2021 22:38:58 +0100
+
+linux-latest (105+deb10u10) buster; urgency=medium
+
+  * Update to 4.19.0-15
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 06 Mar 2021 08:37:46 +0100
+
 linux-latest (105+deb10u9pexip2) pexip; urgency=high
 
   * Fix the 105+deb10u9pexip1 changelog to use the right day. Sigh.
